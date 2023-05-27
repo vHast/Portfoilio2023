@@ -1,0 +1,17 @@
+@media screen and (max-width: 520px) {
+  /* #nav-links {
+      display: none;
+      color: red;
+  }
+  */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav #nav-logo h1 {
+    font-size: 1.4rem;
+  }
+  nav #nav-links p {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */

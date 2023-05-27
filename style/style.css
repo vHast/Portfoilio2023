@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: blue;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: rgb(91, 91, 255);
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav #nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav #nav-links p {
+  padding: 0rem 0.5rem;
+  font-size: 1.1rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-weight: bold;
+}
+nav #nav-links p:hover {
+  transition: all 0.2s;
+  background-color: rgb(250, 250, 250);
+}
+nav .burger-button {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
