@@ -12,7 +12,7 @@ h1, span {
 }
 
 a {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 nav {
@@ -66,31 +66,36 @@ nav #nav-links #brgr-btn {
 }
 
 #main {
-  margin: 0 2rem;
-  padding-top: 3.5rem;
+  margin: 0 5rem;
+  padding-top: 5.5rem;
 }
 #main .profile-container {
-  height: 80vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   text-align: center;
+  justify-content: space-around;
 }
 #main #profile-img {
-  height: 175x;
-  width: 175px;
+  height: 275x;
+  width: 275px;
   border-radius: 25px;
-  -webkit-transform: rotate(45deg) skew(0deg, 0deg);
+  transform: rotate(45deg) skew(0deg, 0deg);
 }
 #main #profile-info {
   font-family: "Inter", sans-serif;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 #main #profile-info h1 {
   font-family: "Inter", sans-serif;
   color: black;
   font-weight: bold;
 }
-#main #profile-info h4 {
-  margin-top: 1rem;
+#main #profile-info h3 {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: gray;
+}
+#main #profile-info p {
+  margin: 1rem 5rem;
 }/*# sourceMappingURL=style.css.map */

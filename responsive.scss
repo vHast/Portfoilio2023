@@ -35,4 +35,43 @@
             }
         }
     }
+
+    #main {
+        margin: 0 2rem;
+        padding-top: 3.5rem;
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        #profile-img{
+            height: 175x;
+            width:175px;
+        }
+    
+        #profile-info{
+            font-family: 'Inter', sans-serif;
+            margin-top: 4rem;
+    
+            h1 {
+                font-family: 'Inter', sans-serif;
+                color: black;
+                font-weight: bold;
+            }
+    
+            h3 {
+                margin-top: 0.5rem;
+                font-size:1rem;
+                color: gray;
+            }
+    
+            p {
+    
+                margin: 1rem 5rem;
+            }
+        }
+    
+    }
   }
