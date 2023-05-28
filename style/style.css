@@ -77,16 +77,19 @@ nav #nav-links #brgr-btn {
   text-align: center;
 }
 #main #profile-img {
-  height: 200px;
-  width: 200px;
+  height: 175x;
+  width: 175px;
+  border-radius: 25px;
+  -webkit-transform: rotate(45deg) skew(0deg, 0deg);
 }
 #main #profile-info {
   font-family: "Inter", sans-serif;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 #main #profile-info h1 {
   font-family: "Inter", sans-serif;
   color: black;
+  font-weight: bold;
 }
 #main #profile-info h4 {
   margin-top: 1rem;
