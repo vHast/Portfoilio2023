@@ -78,6 +78,10 @@ nav {
 #main {
     margin: 0 5rem;
     padding-top: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
 
     .profile-container {
         display: flex;
@@ -97,10 +101,11 @@ nav {
     #profile-info{
         font-family: 'Inter', sans-serif;
         margin-top: 4rem;
+        margin-right: 3rem;
 
         h1 {
             font-family: 'Inter', sans-serif;
-            color: black;
+            color: rgb(105, 105, 105);
             font-weight: bold;
         }
 
