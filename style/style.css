@@ -14,9 +14,6 @@ h1 {
 a {
   color: black;
 }
-a:hover {
-  color: rgb(91, 91, 255);
-}
 
 nav {
   height: 80px;
@@ -42,6 +39,25 @@ nav #nav-links p:hover {
   transition: all 0.2s;
   background-color: rgb(250, 250, 250);
 }
-nav .burger-button {
-  display: none;
+nav #nav-links p:hover a {
+  color: rgb(91, 91, 255);
+}
+nav #nav-links #dark-btn {
+  margin-left: 1rem;
+  height: 70px;
+  width: 3.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+  border-radius: 15px;
+  text-align: center;
+}
+nav #nav-links #dark-btn:hover {
+  transition: all 0.2s;
+  background-color: rgb(91, 91, 255);
+}
+nav #nav-links #dark-btn:hover a {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
