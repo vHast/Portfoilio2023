@@ -6,9 +6,10 @@
     font-family: 'Inter', sans-serif;
 }
 
-h1 {
+h1, span {
     font-size: 2rem;
-    color: blue;
+    font-family: monospace
+
 }
 
 a {
@@ -47,7 +48,7 @@ nav {
 
         }
 
-        #dark-btn {
+        .special-btn {
             margin-left: 1rem;
             height: 70px;
             width:3.5rem;
@@ -68,5 +69,41 @@ nav {
                 }
             }
         }
+
+        #brgr-btn {
+            display: none;
+        }
     }
+}
+
+#main {
+    margin: 0 2rem;
+    padding-top: 3.5rem;
+    .profile-container {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #profile-img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #profile-info{
+        font-family: 'Inter', sans-serif;
+        margin-top: 2rem;
+
+        h1 {
+            font-family: 'Inter', sans-serif;
+            color: black;
+        }
+
+        h4 {
+            margin-top: 1rem;
+        }
+    }
+
 }

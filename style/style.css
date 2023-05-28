@@ -6,9 +6,9 @@
   font-family: "Inter", sans-serif;
 }
 
-h1 {
+h1, span {
   font-size: 2rem;
-  color: blue;
+  font-family: monospace;
 }
 
 a {
@@ -42,7 +42,7 @@ nav #nav-links p:hover {
 nav #nav-links p:hover a {
   color: rgb(91, 91, 255);
 }
-nav #nav-links #dark-btn {
+nav #nav-links .special-btn {
   margin-left: 1rem;
   height: 70px;
   width: 3.5rem;
@@ -54,10 +54,40 @@ nav #nav-links #dark-btn {
   border-radius: 15px;
   text-align: center;
 }
-nav #nav-links #dark-btn:hover {
+nav #nav-links .special-btn:hover {
   transition: all 0.2s;
   background-color: rgb(91, 91, 255);
 }
-nav #nav-links #dark-btn:hover a {
+nav #nav-links .special-btn:hover a {
   color: white;
+}
+nav #nav-links #brgr-btn {
+  display: none;
+}
+
+#main {
+  margin: 0 2rem;
+  padding-top: 3.5rem;
+}
+#main .profile-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#main #profile-img {
+  height: 200px;
+  width: 200px;
+}
+#main #profile-info {
+  font-family: "Inter", sans-serif;
+  margin-top: 2rem;
+}
+#main #profile-info h1 {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+#main #profile-info h4 {
+  margin-top: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -8,10 +8,25 @@
     display: flex;
     justify-content: center;
   }
-  nav #nav-logo h1 {
-    font-size: 1.4rem;
+  nav #nav-logo {
+    position: absolute;
+    left: 2rem;
+  }
+  nav #nav-logo h1, nav #nav-logo span {
+    font-size: 1.3rem;
   }
   nav #nav-links p {
     display: none;
+  }
+  nav #nav-links .special-btn {
+    position: absolute;
+    right: 2rem;
+    width: 50px;
+  }
+  nav #nav-links #brgr-btn {
+    display: flex;
+    right: 6rem;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=responsive.css.map */

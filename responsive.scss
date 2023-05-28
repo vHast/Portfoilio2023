@@ -10,13 +10,28 @@
         justify-content: center;
 
         #nav-logo {
-            h1 {
-                font-size: 1.4rem;
+            position: absolute;
+            left: 2rem;
+            h1, span {
+                font-size: 1.3rem;
             }
         }
         #nav-links {
             p {
                 display: none;
+            }
+
+            .special-btn {
+                position: absolute;
+                right: 2rem;
+                width: 50px;
+            }
+
+            #brgr-btn {
+                display: flex;
+                right: 6rem;
+                justify-content: center;
+                align-items: center;
             }
         }
     }
