@@ -42,6 +42,7 @@
   #main #profile-img {
     height: 175x;
     width: 175px;
+    padding-right: 0rem;
   }
   #main #profile-info {
     font-family: "Inter", sans-serif;
@@ -60,4 +61,12 @@
   #main #profile-info p {
     margin: 1rem 5rem;
   }
+}
+#projects {
+  flex-direction: column;
+  margin: 0;
+}
+#projects .project-case {
+  margin: 2rem 0rem;
+  width: 80%;
 }/*# sourceMappingURL=responsive.css.map */

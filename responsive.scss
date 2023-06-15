@@ -49,6 +49,7 @@
         #profile-img{
             height: 175x;
             width:175px;
+            padding-right: 0rem;
         }
     
         #profile-info{
@@ -73,5 +74,15 @@
             }
         }
     
+    }
+  }
+
+  #projects {
+    flex-direction: column;
+    margin: 0;
+
+    .project-case {
+        margin: 2rem 0rem;
+        width: 80%;
     }
   }
