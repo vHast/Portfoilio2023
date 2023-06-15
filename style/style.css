@@ -104,6 +104,22 @@ nav #nav-links #brgr-btn {
 #main #profile-info p {
   margin: 1rem 5rem;
 }
+#main #profile-info .contact-btns {
+  display: flex;
+  justify-content: center;
+}
+#main #profile-info .contact-btns a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(102, 168, 255);
+  width: 45px;
+  height: 45px;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
 
 #projects {
   display: flex;
