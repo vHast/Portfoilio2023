@@ -75,14 +75,14 @@
         }
     
     }
-  }
 
-  #projects {
-    flex-direction: column;
-    margin: 0;
-
-    .project-case {
-        margin: 2rem 0rem;
-        width: 80%;
-    }
+    #projects {
+        flex-direction: column;
+        margin: 0;
+    
+        .project-case {
+            margin: 2rem 0rem;
+            width: 80%;
+        }
+      }
   }
